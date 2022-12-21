@@ -1,0 +1,130 @@
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2; 
+    filter: brightness(0.3);
+    
+  }
+body{
+  background-image: url(./images/Fondos\ navideños\ 5.jpg) ;
+  background-position: center center;
+  overflow: hidden;
+  width: 800px;
+  height: 600px;
+  cursor: url(./images/mouse2.png),auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+  .carta{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30rem; 
+  height: 36rem;
+  /*1 rem son 16px*/
+  background-size: cover;
+  background-color: #000;
+  background-image: url(./images/santa.jpg);
+  border-radius: 20px;
+  background-position: center center;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 15px 12px,
+  rgba(0, 0, 0, .3) 0px 19px 38px;
+                       /*0 desplazamiento 19 de desplazamiento y 38 de difuminacion*/
+  }
+
+
+
+   .interno{
+    /*text-align: center;*/
+    background-color: rgba(88, 99, 99, 0.9);
+    color:#FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /*indica que el contendor hijo se coloca en el eje z referencia a su padre*/
+    opacity: 0;
+    padding: 2rem 1.3rem 2rem 2rem;
+    /*superior derecho inferior izquierdo*/
+    transition: all .4s ease 0s;
+    font-size: 20px;
+    cursor: url(./images/click2-removebg-preview.png),auto;
+    font-family: 'Itim', cursive;
+
+   }
+
+
+  .carta:hover .interno{
+   opacity: 1;
+  }
+  
+  .interno p{
+overflow-y: scroll;
+height: 87%;
+padding-right: 1rem;
+margin-top: 1.5rem;
+  }
+
+  ::-webkit-scrollbar{
+  width: .4rem;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background-color: #FFF;
+    border-radius: 56px;
+  }
+
+
+  .regreso{
+    cursor: url(./images/click2-removebg-preview.png),auto;
+  }
+   
+  .texto{
+    color:antiquewhite;
+   animation: tipo1 2.5s steps(20), tipo2 .5s step-end infinite alternate;
+   width: 7em;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 20px;
+    border-right: 3px solid;
+    font-family: 'Itim', cursive;
+
+   
+   }
+
+   
+
+   
+
+    @keyframes tipo1 {
+    
+    from { 
+      width: 0}
+    }
+    
+    @keyframes tipo2 {
+     50% {
+       border-color: transparent
+      
+      }
+
+    }
+
+
+    /*******************IMAGES********************************/
+
+    .auto{
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    flood-opacity: 3%;
+    }
