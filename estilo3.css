@@ -400,3 +400,28 @@ video {
 /****************************************************LETRAS********************************************************/
 
 
+@media screen and (max-width:414px) {
+      .fijando{
+        margin-left: -50%;
+        
+      }
+    
+      span{
+        font-size: 20px;
+         display: flex;
+         text-align: center;
+        align-items: center;
+        font-family: 'Shrikhand';
+        display: inline-block;
+        animation: salto 5s;
+        -webkit-animation: salto 8s;
+        -moz-animation: salto 4s;
+        animation-timing-function: ease-in;/*animation-timing-function: ease-in;*/    
+        transform: translatey(0);
+      }
+
+      
+      
+    }
+
+
