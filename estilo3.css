@@ -399,15 +399,14 @@ video {
 
 /****************************************************LETRAS********************************************************/
 
-
-@media screen and (max-width:441px) {
+@media screen and (max-width:441px ) and (max-height:680px ){
       .fijando{
         margin-left: -50%;
         
       }
     
       span{
-        font-size: 25px;
+        font-size: 20px;
          display: flex;
          text-align: center;
         align-items: center;
@@ -423,5 +422,4 @@ video {
       
       
     }
-
 
