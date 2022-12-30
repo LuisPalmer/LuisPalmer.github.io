@@ -130,25 +130,31 @@ margin-top: 1.5rem;
     }
 
 
-
-
- @media screen and (max-width:441px) and (max-height:680px ) {
+@media screen and (max-width:441px) and (max-height:680px ) {
       body{
         padding: 40px;
       }
 
       
       .carta{
+        padding: 5px;
         position: absolute;
         top: 60%;
-        left: 65%;
+        left: 60%;
         transform: translate(-50%, -50%);
-        width: 28rem; 
-        height: 30rem;
+        width: 25rem; 
+        height: 32rem;
         /*1 rem son 16px*/
         
         }
 
         .santaregreso{
-          width: 90px;
+          width: 80px;
         }
+        .auto{
+          width: 30px;
+          height: 30px;
+          bottom: 0;
+          flood-opacity: 3%;
+          }
+    }
