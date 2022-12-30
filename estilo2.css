@@ -132,7 +132,7 @@ margin-top: 1.5rem;
 
 
 
-@media screen and (max-width:441px) and (max-height:680px ) {
+ @media screen and (max-width:441px) and (max-height:680px ) {
       body{
         padding: 40px;
       }
@@ -140,8 +140,8 @@ margin-top: 1.5rem;
       
       .carta{
         position: absolute;
-        top: 50%;
-        left: 50%;
+        top: 55%;
+        left: 60%;
         transform: translate(-50%, -50%);
         width: 28rem; 
         height: 30rem;
@@ -152,4 +152,3 @@ margin-top: 1.5rem;
         .santaregreso{
           width: 90px;
         }
-    }
