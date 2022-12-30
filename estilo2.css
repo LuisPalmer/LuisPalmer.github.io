@@ -140,8 +140,8 @@ margin-top: 1.5rem;
       
       .carta{
         position: absolute;
-        top: 55%;
-        left: 60%;
+        top: 60%;
+        left: 65%;
         transform: translate(-50%, -50%);
         width: 28rem; 
         height: 30rem;
