@@ -128,3 +128,28 @@ margin-top: 1.5rem;
     bottom: 0;
     flood-opacity: 3%;
     }
+
+
+
+
+@media screen and (max-width:414px) {
+      body{
+        padding: 40px;
+      }
+      
+      .carta{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 28rem; 
+        height: 30rem;
+        /*1 rem son 16px*/
+        
+        }
+
+        .regreso{
+          height: 5px;
+          width: 5px;
+        }
+    }
