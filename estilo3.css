@@ -400,14 +400,14 @@ video {
 /****************************************************LETRAS********************************************************/
 
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:473px) {
       .fijando{
         margin-left: -50%;
         
       }
     
       span{
-        font-size: 20px;
+        font-size: 25px;
          display: flex;
          text-align: center;
         align-items: center;
